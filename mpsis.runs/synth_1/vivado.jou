@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:04:56 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Mon Feb 16 18:32:47 2026
+# Process ID: 3296932
+# Current directory: /home/pin_34_11/mpsis_semester6/mpsis.runs/synth_1
+# Command line: vivado -log fulladder32.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fulladder32.tcl
+# Log file: /home/pin_34_11/mpsis_semester6/mpsis.runs/synth_1/fulladder32.vds
+# Journal file: /home/pin_34_11/mpsis_semester6/mpsis.runs/synth_1/vivado.jou
+# Running On: students-vm, OS: Linux, CPU Frequency: 2449.998 MHz, CPU Physical cores: 32, Host memory: 135064 MB
+#-----------------------------------------------------------
+source fulladder32.tcl -notrace
