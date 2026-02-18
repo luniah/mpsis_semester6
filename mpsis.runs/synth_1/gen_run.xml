@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1771266764">
-  <File Type="VDS-TIMINGSUMMARY" Name="fulladder32_timing_summary_synth.rpt"/>
   <File Type="RDS-DCP" Name="fulladder32.dcp"/>
   <File Type="RDS-UTIL-PB" Name="fulladder32_utilization_synth.pb"/>
-  <File Type="RDS-UTIL" Name="fulladder32_utilization_synth.rpt"/>
-  <File Type="RDS-PROPCONSTRS" Name="fulladder32_drc_synth.rpt"/>
-  <File Type="RDS-RDS" Name="fulladder32.vds"/>
-  <File Type="REPORTS-TCL" Name="fulladder32_reports.tcl"/>
-  <File Type="VDS-TIMING-PB" Name="fulladder32_timing_summary_synth.pb"/>
   <File Type="PA-TCL" Name="fulladder32.tcl"/>
+  <File Type="RDS-UTIL" Name="fulladder32_utilization_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="fulladder32_reports.tcl"/>
+  <File Type="RDS-RDS" Name="fulladder32.vds"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/fulladder.sv">

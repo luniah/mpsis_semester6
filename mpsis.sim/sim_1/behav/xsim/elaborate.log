@@ -1,9 +1,31 @@
 Vivado Simulator v2023.1
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
-Running: /tools/Xilinx/Vivado/2023.1/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot lab_01_tb_fulladder32_behav xil_defaultlib.lab_01_tb_fulladder32 xil_defaultlib.glbl -log elaborate.log 
+Running: /tools/Xilinx/Vivado/2023.1/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot lab_02_tb_alu_behav xil_defaultlib.lab_02_tb_alu xil_defaultlib.glbl -log elaborate.log 
 Using 8 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3597] non-void function 'randomize' called as a task without void casting [/home/pin_34_11/mpsis_semester6/lab_02.tb_alu.sv:113]
+WARNING: [VRFC 10-3597] non-void function 'randomize' called as a task without void casting [/home/pin_34_11/mpsis_semester6/lab_02.tb_alu.sv:123]
+WARNING: [VRFC 10-3597] non-void function 'randomize' called as a task without void casting [/home/pin_34_11/mpsis_semester6/lab_02.tb_alu.sv:149]
+WARNING: [VRFC 10-3597] non-void function 'randomize' called as a task without void casting [/home/pin_34_11/mpsis_semester6/lab_02.tb_alu.sv:158]
+WARNING: [VRFC 10-3597] non-void function 'randomize' called as a task without void casting [/home/pin_34_11/mpsis_semester6/lab_02.tb_alu.sv:167]
+WARNING: [VRFC 10-3597] non-void function 'randomize' called as a task without void casting [/home/pin_34_11/mpsis_semester6/lab_02.tb_alu.sv:177]
+WARNING: [VRFC 10-3597] non-void function 'randomize' called as a task without void casting [/home/pin_34_11/mpsis_semester6/lab_02.tb_alu.sv:196]
+WARNING: [VRFC 10-3597] non-void function 'randomize' called as a task without void casting [/home/pin_34_11/mpsis_semester6/lab_02.tb_alu.sv:197]
 Completed static elaboration
-INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "/home/pin_34_11/mpsis_semester6/mpsis.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/pin_34_11/mpsis_semester6/mpsis.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.alu_opcodes_pkg
+Compiling package std.std
+Compiling module xil_defaultlib.fulladder
+Compiling module xil_defaultlib.fulladder4_default
+Compiling module xil_defaultlib.fulladder32_default
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.alu_ref_default
+Compiling module xil_defaultlib.lab_02_tb_alu
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot lab_02_tb_alu_behav

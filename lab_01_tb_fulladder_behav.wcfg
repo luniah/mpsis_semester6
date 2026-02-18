@@ -3,41 +3,60 @@
    <wave_state>
    </wave_state>
    <db_ref_list>
-      <db_ref path="lab_01_tb_fulladder_behav.wdb" id="1">
+      <db_ref path="lab_02_tb_alu_behav.wdb" id="1">
          <top_modules>
+            <top_module name="alu_opcodes_pkg" />
             <top_module name="glbl" />
-            <top_module name="lab_01_tb_fulladder" />
+            <top_module name="lab_02_tb_alu" />
+            <top_module name="std" />
          </top_modules>
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="0.729 ns"></ZoomStartTime>
-      <ZoomEndTime time="36.967 ns"></ZoomEndTime>
-      <Cursor1Time time="10.476 ns"></Cursor1Time>
+      <ZoomStartTime time="22,737.883 ns"></ZoomStartTime>
+      <ZoomEndTime time="22,793.772 ns"></ZoomEndTime>
+      <Cursor1Time time="86,995.000 ns"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="123"></NameColumnWidth>
-      <ValueColumnWidth column_width="106"></ValueColumnWidth>
+      <ValueColumnWidth column_width="102"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="5" />
-   <wvobject type="logic" fp_name="/lab_01_tb_fulladder/tb_a_i">
-      <obj_property name="ElementShortName">tb_a_i</obj_property>
-      <obj_property name="ObjectShortName">tb_a_i</obj_property>
+   <WVObjectSize size="8" />
+   <wvobject type="array" fp_name="/lab_02_tb_alu/DUT/a_i">
+      <obj_property name="ElementShortName">a_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">a_i[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
-   <wvobject type="logic" fp_name="/lab_01_tb_fulladder/tb_b_i">
-      <obj_property name="ElementShortName">tb_b_i</obj_property>
-      <obj_property name="ObjectShortName">tb_b_i</obj_property>
+   <wvobject type="array" fp_name="/lab_02_tb_alu/DUT/b_i">
+      <obj_property name="ElementShortName">b_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">b_i[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
-   <wvobject type="logic" fp_name="/lab_01_tb_fulladder/tb_carry_i">
-      <obj_property name="ElementShortName">tb_carry_i</obj_property>
-      <obj_property name="ObjectShortName">tb_carry_i</obj_property>
+   <wvobject type="array" fp_name="/lab_02_tb_alu/DUT/alu_op_i">
+      <obj_property name="ElementShortName">alu_op_i[4:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_op_i[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
-   <wvobject type="logic" fp_name="/lab_01_tb_fulladder/tb_carry_o">
-      <obj_property name="ElementShortName">tb_carry_o</obj_property>
-      <obj_property name="ObjectShortName">tb_carry_o</obj_property>
+   <wvobject type="logic" fp_name="/lab_02_tb_alu/DUT/flag_o">
+      <obj_property name="ElementShortName">flag_o</obj_property>
+      <obj_property name="ObjectShortName">flag_o</obj_property>
    </wvobject>
-   <wvobject type="logic" fp_name="/lab_01_tb_fulladder/tb_sum_o">
-      <obj_property name="ElementShortName">tb_sum_o</obj_property>
-      <obj_property name="ObjectShortName">tb_sum_o</obj_property>
+   <wvobject type="array" fp_name="/lab_02_tb_alu/DUT/result_o">
+      <obj_property name="ElementShortName">result_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">result_o[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/lab_02_tb_alu/DUT/sum_result">
+      <obj_property name="ElementShortName">sum_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sum_result[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/lab_02_tb_alu/DUT/carry_i">
+      <obj_property name="ElementShortName">carry_i</obj_property>
+      <obj_property name="ObjectShortName">carry_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/lab_02_tb_alu/DUT/carry_o">
+      <obj_property name="ElementShortName">carry_o</obj_property>
+      <obj_property name="ObjectShortName">carry_o</obj_property>
    </wvobject>
 </wave_config>
